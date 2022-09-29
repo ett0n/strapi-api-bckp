@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accessories",
+  "info": {
+    "singularName": "accessory",
+    "pluralName": "accessories",
+    "displayName": "accessory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "hat",
+        "head",
+        "body",
+        "hand_l",
+        "hand_r",
+        "feet",
+        "background"
+      ]
+    },
+    "color": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_view_def_backgrounds",
+  "info": {
+    "displayName": "def_background",
+    "icon": "mountain"
+  },
+  "options": {},
+  "attributes": {
+    "active": {
+      "type": "boolean"
+    },
+    "background": {
+      "type": "string"
+    }
+  }
+}
