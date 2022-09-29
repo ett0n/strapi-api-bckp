@@ -17,6 +17,31 @@
       "type": "component",
       "repeatable": false,
       "component": "character.points"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
+    },
+    "hand_l": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
+    },
+    "hand_r": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
+    },
+    "feet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
     }
   }
 }

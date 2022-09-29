@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_character_stats_comps",
+  "info": {
+    "displayName": "StatsComp",
+    "icon": "chart-pie"
+  },
+  "options": {},
+  "attributes": {
+    "connexion": {
+      "type": "biginteger"
+    },
+    "win": {
+      "type": "biginteger"
+    },
+    "loose": {
+      "type": "biginteger"
+    },
+    "ar": {
+      "type": "biginteger"
+    }
+  }
+}
