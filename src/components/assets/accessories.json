@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_assets_accessories",
+  "info": {
+    "displayName": "accessories",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hat": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
+    },
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "character.points"
+    }
+  }
+}
