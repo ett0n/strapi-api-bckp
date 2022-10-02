@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "email": "mail@mail.com",
+        "pseudo": "User1",
+        "disabled": false,
+        "createdAt": "2022-10-02T09:33:34.808Z",
+        "updatedAt": "2022-10-02T09:41:19.703Z",
+        "publishedAt": "2022-10-02T09:41:19.702Z",
+        "characters": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "disabled": false,
+                "createdAt": "2022-10-02T09:32:36.722Z",
+                "updatedAt": "2022-10-02T09:41:05.329Z",
+                "publishedAt": "2022-10-02T09:41:05.325Z"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "disabled": false,
+                "createdAt": "2022-10-02T09:35:21.893Z",
+                "updatedAt": "2022-10-02T09:41:01.191Z",
+                "publishedAt": "2022-10-02T09:41:01.189Z"
+              }
+            }
+          ]
+        },
+        "stats": {
+          "id": 2,
+          "connexion": "1",
+          "win": "0",
+          "loose": "0",
+          "ar": "0"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "email": "mail2@mail.com",
+        "pseudo": "User2",
+        "disabled": false,
+        "createdAt": "2022-10-02T09:51:13.256Z",
+        "updatedAt": "2022-10-02T09:55:32.496Z",
+        "publishedAt": "2022-10-02T09:52:00.642Z",
+        "characters": {
+          "data": [
+            {
+              "id": 3,
+              "attributes": {
+                "disabled": false,
+                "createdAt": "2022-10-02T09:51:42.651Z",
+                "updatedAt": "2022-10-02T09:55:21.526Z",
+                "publishedAt": "2022-10-02T09:53:15.349Z"
+              }
+            }
+          ]
+        },
+        "stats": null
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 2
+    }
+  }
+}

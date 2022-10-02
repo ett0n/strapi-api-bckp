@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "id_user": {
+    "appuser": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "admin::user"
+      "target": "api::appuser.appuser"
     },
     "disabled": {
       "type": "boolean",
@@ -27,12 +27,6 @@
       "type": "component",
       "repeatable": false,
       "component": "assets.accessories"
-    },
-    "stats": {
-      "displayName": "StatsComp",
-      "type": "component",
-      "repeatable": false,
-      "component": "character.stats-comp"
     }
   }
 }

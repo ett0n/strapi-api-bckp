@@ -8,21 +8,17 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "uid": {
-      "type": "string"
-    },
     "category": {
       "type": "enumeration",
       "enum": [
         "hat",
         "head",
         "body",
-        "hand_l",
-        "hand_r",
+        "hand",
         "feet",
         "background"
       ]
@@ -32,6 +28,9 @@
     },
     "disabled": {
       "type": "boolean"
+    },
+    "name": {
+      "type": "uid"
     }
   }
 }
