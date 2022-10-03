@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_accessories_categories",
+  "info": {
+    "displayName": "Categories",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Accessory": {
+      "displayName": "Accesories",
+      "type": "component",
+      "repeatable": true,
+      "component": "accessories.accesories"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

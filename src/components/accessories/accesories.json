@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_accessories_accesories",
+  "info": {
+    "displayName": "Accesories"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    }
+  }
+}
